@@ -1,0 +1,40 @@
+.menucard {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}
+
+.meal-cont {
+  display: flex;
+  align-items: center;
+}
+
+.menucard-img {
+  height: 8rem;
+  width: 10rem;
+}
+.menucard-img img {
+}
+.menucard-content {
+  max-width: 25rem;
+}
+
+.menucard-content h5 {
+  font-size: 1.5rem;
+}
+.menucard-content p {
+  font-size: 1.2rem;
+}
+
+.menucard-price {
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 992px) {
+  .menucard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
